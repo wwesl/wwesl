@@ -1,4 +1,4 @@
-# Hello, I'm Kori
+# Hello, My Name Is Weslei
 
 ### 🪸 About Me
   
