@@ -18,7 +18,7 @@ I was born in February 3rd 2007, in the city of Brusque, SC in Brazil.
 ###### [Note: I do not have a significant finished project yet]
 - I have made a few Roblox games, they weren't popular, just small experiments.
 - I also did some Rain World mods, not really popular either
- - Rain World is an Indie game not many know about, but to put it simply, it's a platformer with its main points into story, ecosystem and difficulty
+  - Rain World is an Indie game not many know about, but to put it simply, it's a platformer with its main points into story, ecosystem and difficulty
 - I have played around with Minecraft datapacks, made custom crafting using no mods
 
 </details>
