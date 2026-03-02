@@ -9,7 +9,7 @@
 - 🖌️🎥 2D artist & beginner animator
  - 🎨 7th year of digital art
 
-<img src="https://raw.githubusercontent.com/wwesl/wwesl/refs/heads/main/IXNbBIdrP8P1AAAAAASUVORK5CYII.png" width="300" height="30">
+<img src="https://raw.githubusercontent.com/wwesl/wwesl/refs/heads/main/IXNbBIdrP8P1AAAAAASUVORK5CYII.png" width="350" height="25">
 
 <details>
 <summary>Projects</summary>
@@ -24,6 +24,6 @@
 </details>
 
 <details>
-<summary>A LuaU joke I want to mention</summary>
-<img src="https://cdn.discordapp.com/attachments/1184502495976882270/1477675085400772730/131088E5-2B2F-4431-AA23-51998E91E7F0.jpg?ex=69a6486a&is=69a4f6ea&hm=9f1bd0fa4b2b1d9917cef4dba5e04a793ef213d416eccd49f2d670d86d930edd&" width="100" height="100">
+<summary>Some of my drawings</summary>
+<img src="" width="100" height="100">
 </details>
