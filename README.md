@@ -1,29 +1,14 @@
 # Hello, I'm Kori
 
-<details>
-## <summary>About Me</summary>
+## <details>
+<summary>About Me</summary>
  
 - 🎓 Computer Science student
-- 💻 Roblox game developer, beginner C# programmer
- <details>
 - 💻 Roblox game developer, beginner C# programmer
   - 🌙 5th year of LuaU
 - 🖌️🎥 2D artist & beginner animator
  - 🎨 7th year of digital art
   
-</details>
-
-<details>
-
- 
-```md
-- 🎓 Computer Science student
-- 💻 Roblox game developer, beginner C# programmer
- - 🌙 5th year of LuaU programming
-- 🖌️🎥 2D artist & beginner animator
- - 🎨 7th year of digital art
-```
- 
 </details>
 
 
