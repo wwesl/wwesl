@@ -9,7 +9,7 @@
 - 🖌️🎥 2D artist & beginner animator
  - 🎨 7th year of digital art
 
-<img scr="https://raw.githubusercontent.com/wwesl/wwesl/refs/heads/main/IXNbBIdrP8P1AAAAAASUVORK5CYII.png" width="300" height="30">
+<img src="https://raw.githubusercontent.com/wwesl/wwesl/refs/heads/main/IXNbBIdrP8P1AAAAAASUVORK5CYII.png" width="300" height="30">
 
 <details>
 <summary>Projects</summary>
