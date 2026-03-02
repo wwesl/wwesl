@@ -12,13 +12,12 @@
 <img src="https://raw.githubusercontent.com/wwesl/wwesl/refs/heads/main/IXNbBIdrP8P1AAAAAASUVORK5CYII.png" width="400" height="20">
 
 <details>
-<summary>Projects I have made</summary>
- 
-- Transfeyyr (Roblox game), is no longer owned or maintaned by me
- - I have reached over 50,000 Robux of income, which is around 175$
-- A private Roblox game, project paused due to lack of free time
-- Rain World modding, indefinitely paused but not completly abandoned
- - Rain World is an Indie game not many know about, to put it simply, it's a platformer with its main points into story, ecosystem and difficulty
+<summary>Projects</summary>
+  
+###### [Note: I do not have a significant finished project yet]
+- I have made a few Roblox games, they weren't popular, just small experiments.
+- I also did some Rain World mods, not really popular eigher
+ - Rain World is an Indie game not many know about, but to put it simply, it's a platformer with its main points into story, ecosystem and difficulty
 - I have played around with Minecraft datapacks, made custom crafting using no mods
 
 </details>
