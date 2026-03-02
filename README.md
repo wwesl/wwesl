@@ -25,7 +25,7 @@
 <details>
 <summary>Some of my drawings</summary>
 <img src="https://github.com/wwesl/wwesl/blob/main/121%20Sem%20T%C3%ADtulo_20240913064418.png" width="100" height="100"><img src="https://github.com/wwesl/wwesl/blob/main/147%20Sem%20T%C3%ADtulo_20250731221605.png" width=100 height="100"> 
-<img src="https://github.com/wwesl/wwesl/blob/main/191%20Sem%20T%C3%ADtulo_20251004135931.png" width=100 height="100"><img src="https://github.com/wwesl/wwesl/blob/main/135%20Sem%20T%C3%ADtulo_20241007102120.png" width=100 height="100">
+<img src="" width=100 height="100"><img src="https://github.com/wwesl/wwesl/blob/main/135%20Sem%20T%C3%ADtulo_20241007102120.png" width=100 height="100">
 <img src="https://github.com/wwesl/wwesl/blob/main/161%20Sem%20T%C3%ADtulo_20250819185641.png" width=100 height="100"><img src="https://github.com/wwesl/wwesl/blob/main/135%20Sem%20T%C3%ADtulo_20241007102120.png
 https://github.com/wwesl/wwesl/blob/main/161%20Sem%20T%C3%ADtulo_20250819185641.png https://github.com/wwesl/wwesl/blob/main/191%20Sem%20T%C3%ADtulo_20251004135931.png" width=100 height="100">
 <img src="https://github.com/wwesl/wwesl/blob/main/208%20Sem%20T%C3%ADtulo_20251022134420.png" width=100 height="100"><img src="https://github.com/wwesl/wwesl/blob/main/216%20Sem%20T%C3%ADtulo_20251130011456.png" width=100 height="100">
