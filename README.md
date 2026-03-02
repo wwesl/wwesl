@@ -9,17 +9,17 @@
 - 🖌️🎥 2D artist & beginner animator
  - 🎨 7th year of digital art
 
-<img src="https://raw.githubusercontent.com/wwesl/wwesl/refs/heads/main/IXNbBIdrP8P1AAAAAASUVORK5CYII.png" width="500" height="20">
+<img src="https://raw.githubusercontent.com/wwesl/wwesl/refs/heads/main/IXNbBIdrP8P1AAAAAASUVORK5CYII.png" width="400" height="20">
 
 <details>
 <summary>Projects I have made</summary>
  
-1. Transfeyyr (Roblox game), is no longer owned or maintaned by me
+- Transfeyyr (Roblox game), is no longer owned or maintaned by me
  - I have reached over 50,000 Robux of income, which is around 175$
-2. A private Roblox game, project paused due to lack of free time
-3. Rain World modding, indefinitely paused but not completly abandoned
+- A private Roblox game, project paused due to lack of free time
+- Rain World modding, indefinitely paused but not completly abandoned
  - Rain World is an Indie game not many know about, to put it simply, it's a platformer with its main points into story, ecosystem and difficulty
-4. I have played around with Minecraft datapacks, made custom crafting using no mods
+- I have played around with Minecraft datapacks, made custom crafting using no mods
 
 </details>
 
