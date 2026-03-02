@@ -9,7 +9,7 @@
 - 🖌️🎥 2D artist & beginner animator
  - 🎨 7th year of digital art
 
-<img scr="https://cdn.discordapp.com/attachments/1236475165987049574/1289678172962426899/IXNbBIdrP8P1AAAAAASUVORK5CYII.png?ex=69a69525&is=69a543a5&hm=b449ecb72341a295dd71a3fa218cc8aa6d3093b1938ad84d143fbed4f5d50b5e&" width="300" height="30">
+<img scr="https://github.com/wwesl/wwesl/blob/0b1436041879c7063ce036b7c11defd24b088abb/IXNbBIdrP8P1AAAAAASUVORK5CYII.png" width="300" height="30">
 
 <details>
 <summary>Projects</summary>
