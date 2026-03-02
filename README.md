@@ -24,5 +24,5 @@
 
 <details>
 <summary>Some of my drawings</summary>
-<img src="" width="100" height="100">
+<img src="https://github.com/wwesl/wwesl/blob/main/121%20Sem%20T%C3%ADtulo_20240913064418.png" width="100" height="100">
 </details>
