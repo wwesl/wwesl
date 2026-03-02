@@ -25,8 +25,6 @@ I was born in February 3rd 2007, in the city of Brusque, SC in Brazil.
 
 <details>
 <summary>Recent Art Creations</summary>
-
-
 <img src="https://github.com/wwesl/wwesl/blob/main/226%20Sem%20T%C3%ADtulo_20260111161203.png" width="130" height="130"> <img src="https://github.com/wwesl/wwesl/blob/main/216%20Sem%20T%C3%ADtulo_20251130011456.png" width=130 height="130"> 
 <img src="https://github.com/wwesl/wwesl/blob/main/208%20Sem%20T%C3%ADtulo_20251022134420.png" width=130 height="130"> <img src="https://github.com/wwesl/wwesl/blob/main/161%20Sem%20T%C3%ADtulo_20250819185641.png" width=130 height="130">
  <img src="https://github.com/wwesl/wwesl/blob/main/147%20Sem%20T%C3%ADtulo_20250731221605.png" width=130 height="130"> <img src="https://github.com/wwesl/wwesl/blob/main/135%20Sem%20T%C3%ADtulo_20241007102120.png" width=130 height="130">
