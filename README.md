@@ -1,16 +1,29 @@
-## Hi there 👋
+# title
+## subtitle
+### sub
+#### small
+- item
+---
+**bold**
+*italic*
+***bold italic***
+`idk something`
+```cs
+public static class idk{
+   public idk() {};
+   public int lol = 1;
+}
+```
+> quote
+```md
+1. a
+2. a
+3. a
+```
 
-<!--
-**wwesl/wwesl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<details>
+<summary>Click to expand</summary>
 
-Here are some ideas to get you started:
+b
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</details>
