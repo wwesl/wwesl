@@ -6,9 +6,9 @@ I was born in February 3rd 2007, in the city of Brusque, SC in Brazil.
   
 - 🎓 Computer Science student
 - 💻 I am a Roblox game developer, and recently begun C# programmer
- - 🌙 5th year of LuaU
+  - 🌙 5th year of LuaU
 - 🖌️🎥 2D artist & beginner animator
- - 🎨 7th year of digital art
+  - 🎨 7th year of digital art
 
 <img src="https://raw.githubusercontent.com/wwesl/wwesl/refs/heads/main/IXNbBIdrP8P1AAAAAASUVORK5CYII.png" width="400" height="20">
 
