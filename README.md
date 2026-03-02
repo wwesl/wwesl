@@ -9,6 +9,7 @@
 
 <details>
 <summary>About Me</summary>
+ 
 ```md
 - 🎓 Computer Science student
 - 💻 Roblox game developer, beginner C# programmer
@@ -16,6 +17,7 @@
 - 🖌️🎥 2D artist & beginner animator
  - 🎨 7th year of digital art
 ```
+ 
 </details>
 
 
