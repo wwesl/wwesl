@@ -1,13 +1,17 @@
 # Hello, I'm Kori
 
-## About Me
+<details>
+<summary>About Me</summary>
+  
 - 🎓 Computer Science student
 - 🌊 I love ocean related things
 - 💻 Roblox game developer, beginner C# programmer
   - 🌙 5th year of LuaU
 - 🖌️🎥 2D artist & beginner animator
  - 🎨 7th year of digital art
----
+
+</details>
+
 <details>
 <summary>Projects</summary>
  
@@ -22,5 +26,5 @@
 
 <details>
 <summary>A LuaU joke I want to mention</summary>
-<img src="https://cdn.discordapp.com/attachments/1184502495976882270/1477675085400772730/131088E5-2B2F-4431-AA23-51998E91E7F0.jpg?ex=69a6486a&is=69a4f6ea&hm=9f1bd0fa4b2b1d9917cef4dba5e04a793ef213d416eccd49f2d670d86d930edd&" width="200" height="40">
+<img src="https://cdn.discordapp.com/attachments/1184502495976882270/1477675085400772730/131088E5-2B2F-4431-AA23-51998E91E7F0.jpg?ex=69a6486a&is=69a4f6ea&hm=9f1bd0fa4b2b1d9917cef4dba5e04a793ef213d416eccd49f2d670d86d930edd&" width="300" height="40">
 </details>
