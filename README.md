@@ -4,10 +4,8 @@
 - 🎓 Computer Science student
 - 💻 Roblox game developer, beginner C# programmer
  <details>
-<summary> - About Me</summary>
-  
-  - 🌙 5th year of LuaU programming
-
+- <summary>💻 Roblox game developer, beginner C# programmer</summary>
+  🌙 5th year of LuaU
 </details>
 - 🖌️🎥 2D artist & beginner animator
  - 🎨 7th year of digital art
