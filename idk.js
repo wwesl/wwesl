@@ -1,6 +1,8 @@
 let alerted = false;
 let ripples = [];
 let maxRipples = 15;
+let posx;
+let posy;
 
 function makeRipple() {
     let newRipple = document.createElement("div");
@@ -23,18 +25,23 @@ function getOldestRipple() {
     return oldest;
 }
 
+function animate() {
+    let ripple = (ripples.length >= maxRipples) ? getOldestRipple() : makeRipple();
+    ripple.style.top = posy + "px";
+    ripple.style.left = posx + "px";
+    requestAnimationFrame(animate);
+}
+
 document.body.addEventListener("mousemove", function(event) {
-    let posx = event.clientX;
-    let posy = event.clientY;
+    posx = event.clientX;
+    posy = event.clientY;
 
     if (!alerted) {
         alerted = true;
         // window.alert(toString(posx) + " " + toString(posy));
     }
-
-    let ripple = (ripples.length >= maxRipples) ? getOldestRipple() : makeRipple(posx, posy);;
-    ripple.style.top = posy + "px";
-    ripple.style.left = posx + "px";
 })
+
+requestAnimationFrame(animate);
 
 console.log("first js script");
