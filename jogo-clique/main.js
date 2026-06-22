@@ -7,6 +7,7 @@ const fcPerClickCounter = document.getElementById("fcPerClick");
 const fcPassiveCounter = document.getElementById("fcPerSec");
 const cooldownCounter = document.getElementById("fcCooldown");
 const upgradeCounter = document.getElementById("upgradeCounter");
+const cleo = document.getElementById("cleo");
 
 let nextSave = 60000;
 
@@ -17,13 +18,17 @@ let totalUpgrades = 0;
 let LEVELS = {};
 
 const _Number = window.Number;
-const Number = function(val) {
+const Number = (val) => {
     let num = _Number(val);
     if (val == "inf")
         return Infinity;
     if (isNaN(num))
         return 0;
     return num;
+}
+
+const round = (val, decimals = 0) => {
+    return Math.round(val * 10 ** decimals) / 10 ** decimals;
 }
 
 
@@ -54,7 +59,7 @@ function updateStats() {
 const clicker = document.getElementById("clicker");
 const clickerBar = document.getElementById("clicker-bar");
 const clickerFishingRod = document.getElementById("clicker-fishingrod");
-let clickCooldown = 1000;
+let clickCooldown = 2000;
 let nextAllowedClick = 0;
 
 clicker.addEventListener("click", () => {
@@ -62,9 +67,11 @@ clicker.addEventListener("click", () => {
     if (now < nextAllowedClick) return;
     nextAllowedClick = now + clickCooldown;
 
-    console.log(clickCooldown);
     fc += fcPerClick;
     updateStats();
+    cleo.currentTime = 0;
+    cleo.playbackRate = 2000/clickCooldown;
+    cleo.play();
 
     clicker.classList.add("cooldown");
     clickerFishingRod.classList.add("cooldown");
@@ -131,10 +138,11 @@ function upgrade_load(id, saveid, upd, maxLevel) {
 
 {// ROD UPGRADE
     let getPower = function(level) {
-        return Math.floor(1.5 * 1.45**level);
+        if (level == 0) return 1;
+        return Math.floor(3 * 1.45**level);
     }
     let getCost = function(level) {
-        return Math.floor(20 * 1.6**level);
+        return Math.floor(10 * 1.6**level);
     }
     let priceRaw;
 
@@ -154,10 +162,10 @@ function upgrade_load(id, saveid, upd, maxLevel) {
 {// NET UPGRADE
     let getPower = function(level) {
         if (level==0) return 0;
-        return Math.floor(1.5 * 1.5**level);
+        return Math.floor(3 * 1.35**level);
     }
     let getCost = function (level) {
-        return Math.floor(15 * 1.6**level);
+        return Math.floor(10 * 1.55**level);
     }
     let priceRaw;
 
@@ -181,21 +189,21 @@ setInterval(() => { fc+=fcPassive;  updateStats(); }, 1000);
         return level * 8;
     }
     let getCost = function(level) {
-        return Math.floor(200 * 2**level);
+        return Math.floor(100 * 2**level);
     }
     let priceRaw;
 
     upgrade_load("upg:spd", "l-spdupg",
         (upg) => {
             if (priceRaw == null) priceRaw = upg.obj.price.innerHTML;
-            let pow = Math.round((1 - (getPower(upg.lv) / 100)) * 100)/100;
-            let next = Math.round((1 - (getPower(upg.lv+1) / 100))*100)/100;
-            cooldownCounter.textContent = (pow == 1) ? "1.0" : pow;
+            let pow = round((1 - (getPower(upg.lv) / 100)), 2);
+            let nextPercent = Math.round(getPower(upg.lv + 1));
+            cooldownCounter.textContent = (pow == 1) ? "2.0" : pow;
             
             if (upg.lv < 5) {
                 upg.el.style.opacity = "1";
                 upg.obj.price.innerHTML = priceRaw.replace("#", getCost(upg.lv));
-                upg.obj.desc.innerHTML = upg.rawdesc.replace("#", next);
+                upg.obj.desc.innerHTML = upg.rawdesc.replace("#", nextPercent);
             }
             else {
                 upg.el.style.opacity = ".5";
@@ -206,7 +214,7 @@ setInterval(() => { fc+=fcPassive;  updateStats(); }, 1000);
                 upg.obj.desc.innerHTML = upg.rawdesc.replace("#", pow);
             }
 
-            clickCooldown = pow * 1000;
+            clickCooldown = pow * 2000;
         }
     , 5)
 }

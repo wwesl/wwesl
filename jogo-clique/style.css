@@ -141,7 +141,7 @@ body {
     bottom: 5%;
     right: 4%;
     font-size: var(--tsize-med);
-    color: #aade;
+    color: #223e;
 }
 .upgrades-container span {
     position: absolute;
@@ -161,9 +161,8 @@ body {
 /*___ clicker            ________________________*/
 #main-clicker-container{
     position: fixed;
-    top: 50%;
-    left: 20%;
-    height: 0;
+    left: 23%;
+    top: 38%;
     transform: translate(-50%, 0);
 }
 #clicker-container{
@@ -171,6 +170,9 @@ body {
     transform: translate(0, -10%) rotate(.01deg);
     transform-origin: center;
     transition: transform 0.15s ease;
+
+    width: 30vw;
+    height: 48vh;
 }
 #clicker {
     cursor: pointer;
@@ -178,21 +180,22 @@ body {
 
     position: relative;
     padding: 5%;
+    width: 100%;
+    height: 100%;
     
     background: #0000;
     border: 0;
-    font-size: var(--tsize-bigger);
+    font-size: var(--tsize-big);
     color: inherit;
     text-shadow: 3px 5px 4px #000;
     text-wrap: nowrap;
 }
 #clicker-fishingrod{
     position: absolute;
-    left: 70%;
-    width: 67%;
+    left: 60%;
+    top: 67%;
+    width: 35%;
     transform: translate(0, -70%) rotate(15deg) scaleX(-1);
-
-    filter: brightness(1.8);
 }
 #clicker-fishingrod.cooldown {
     pointer-events: none;
@@ -222,6 +225,55 @@ body {
     transform: translate(0, 5px);
 }
 
+/*___ credits            ________________________*/
+footer {
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+    width: 50%;
+
+    display: flex;
+    gap: .5%;
+    align-items: center;
+}
+footer .item {
+    pointer-events: all;
+    font-size: var(--tsize-tiny);
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+
+    background-color: #135a;
+    outline: solid #fff6 2px;
+    outline-offset: -4px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px #0347;
+}
+footer p.item {
+    background-color: #222a;
+}
+footer a:hover {
+    background-color: #38ad;
+}
+footer i {
+    font-size: calc(var(--tsize-tiny) * .8);
+}
+footer b::after{
+    content: " ●";
+    color: #ddff;
+    font-size: calc(var(--tsize-tiny) * .7);
+}
+
+footer *:not(:empty)::after {
+    content: "...";
+    color: #0000;
+}
+footer *:not(:empty)::before {
+    content: "...";
+    color: #0000;
+}
+
 
 /*___ misc               ________________________*/
 .fc { color: #0af; } /* fc = Fish Currency */
@@ -229,7 +281,7 @@ body {
 #res {
     position: fixed;
     left: 1%;
-    bottom: 1%;
+    bottom: 4%;
     font-size: var(--tsize-tiny);
     color: #aaa6;
 }
@@ -240,6 +292,13 @@ body {
     width: 50%;
     transform: translate(0, -50%);
     z-index: -1;
+}
+#background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -2;
 }
 .cooldown {
     pointer-events: none;
